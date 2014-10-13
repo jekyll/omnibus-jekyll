@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+sudo mkdir -p /opt/jekyll /var/cache/omnibus
+sudo chown $(whoami) /opt/jekyll
+sudo chown $(whoami) /var/cache/omnibus

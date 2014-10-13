@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary jekyll removal steps
+# after package is uninstalled.
+#
+
+echo "jekyll has been uninstalled!"
+
+exit 0
