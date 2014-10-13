@@ -34,3 +34,8 @@ exclude "**/bundler/git"
 package :pkg do
   identifier 'com.jekyllrb.standalone'
 end
+
+compress :dmg do
+  window_bounds '200, 200, 750, 600'
+  pkg_position '10, 10'
+end
